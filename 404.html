@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-rc.2">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="stylesheet" type="text/css" href="/css/global.css"><script>var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3531c3641194434fc0076c594b820067";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();</script><title>@vuemap/vue-amap</title><meta name="description" content="高德地图2.0版本的vue3对应封装">
+    <link rel="preload" href="/assets/style-DzVPtaXJ.css" as="style"><link rel="stylesheet" href="/assets/style-DzVPtaXJ.css">
+    <link rel="modulepreload" href="/assets/app-BIv4BGsj.js"><link rel="modulepreload" href="/assets/404.html-C141V5Sn.js"><link rel="modulepreload" href="/assets/404.html-CnfmQthm.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-BIv4BGsj.js" defer></script>
+  </body>
+</html>
